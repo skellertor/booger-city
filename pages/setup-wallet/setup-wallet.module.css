@@ -1,0 +1,23 @@
+.setupWallet {
+  position: relative;
+  padding: 50px;
+}
+
+.stepsContainer {
+  width: 1088px;
+  border: 1px solid #dadada;
+  padding: 30px 20px;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  .setupWallet {
+    padding: 20px;
+  }
+
+  .stepsContainer {
+    width: 100%;
+    padding: 0px;
+    border: none;
+  }
+}

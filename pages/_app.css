@@ -1,0 +1,19 @@
+/* These are global styles for the whole app */
+/* import for Lato specific styling */
+@import url('https://use.typekit.net/jup0ykg.css');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

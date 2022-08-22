@@ -1,0 +1,48 @@
+.purchase-section {
+  display: flex;
+  justify-content: center;
+  margin: 20px 5px;
+}
+
+.purchase-component {
+  max-height: 500px;
+}
+
+.checkoutModal {
+  width: 950px;
+}
+
+.addFundsModal {
+  padding: 50px 130px;
+}
+
+.cancelProcessModal {
+  z-index: 2;
+  padding: 25px;
+  border-radius: 4px;
+}
+
+.errorMessage {
+  font-size: 16;
+  font-weight: 700;
+  color: red;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .checkoutModal {
+    width: calc(100% - 40px);
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+
+  .agreementsModal {
+    width: calc(100% - 40px);
+  }
+
+  .addFundsModal{
+    width: calc(100% - 20px);
+    padding: 10px;
+  }
+}

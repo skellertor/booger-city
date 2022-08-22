@@ -1,0 +1,22 @@
+.dashboard-item {
+  margin: 2rem 0;
+  width: 1100px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1025px) {
+  .dashboard-item {
+    width: 768px;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .dashboard-item {
+    width: 1100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .dashboard-item {
+    width: 100%;
+  }  
+}

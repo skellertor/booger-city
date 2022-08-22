@@ -1,0 +1,41 @@
+.signup-section {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  margin: 30px;
+}
+
+.signup-container {
+  background-color: white;
+  padding: 30px;
+  max-width: 600px;
+  min-width: 350px;
+}
+
+.benefit-container {
+  max-width: 600px;
+  padding: 30px;
+}
+
+.error-message-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  height: 30px;
+}
+
+@media (max-width: 767px) {
+  .signup-section {
+    flex-direction: column-reverse;
+    margin: 0;
+  }
+
+  .signup-container {
+    padding: 0 20px 20px;
+  }
+
+  .benefit-container {
+    padding: 0 20px 20px;
+  }
+}

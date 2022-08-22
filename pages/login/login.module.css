@@ -1,0 +1,45 @@
+.signin-section {
+  display: flex;
+  justify-content: center;
+  margin: 20px 5px;
+  height: 100vh;
+}
+
+.signin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.error-message-container {
+  flex-direction: column;
+  align-items: center;
+  color: red;
+  padding: 5px 10px;
+}
+
+.error-message {
+  text-align: center;
+}
+
+.forgotPasswordModal {
+  width: 500px;
+}
+
+.needHelpText {
+  margin-top: 1rem;
+  font-size: 16px;
+  text-underline-offset: 2px;
+}
+.supportHelpText {
+  color: #326260;
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  .forgotPasswordModal,
+  .emailSentModal {
+    width: 90vw;
+  }
+}

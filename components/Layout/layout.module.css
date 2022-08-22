@@ -1,0 +1,22 @@
+.app-body {
+  display: flex;
+  width: 100%;
+  padding: 0 70px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.forgotPasswordModal {
+  width: 500px;
+}
+
+
+@media (max-width: 767px) {
+  .app-body {
+    padding: 0;
+  }
+
+  .mobileModal {
+    width: 90vw;
+  }
+}

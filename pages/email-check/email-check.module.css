@@ -1,0 +1,6 @@
+.email-check-section {
+  display: flex;
+  justify-content: center;
+  margin: 20px 5px;
+  height: fit-content;
+}

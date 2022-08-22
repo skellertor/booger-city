@@ -1,0 +1,71 @@
+.reward-item {
+  margin: 2rem 0;
+  width: 1100px;
+}
+
+.mint-rewards-modal {
+  width: 500px;
+  font-size: 1.75rem;
+  text-align: left;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.mint-error-modal {
+  width: 500px;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.reward-history-modal {
+  max-width: 1100px;
+  height: 714px;
+  border-radius: 4px;
+}
+
+.reward-img {
+  width: 10px;
+  height: 10px;
+}
+
+.minting-error {
+  color: red;
+  font-size: 16px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1025px) {
+  .reward-item {
+    width: 768px;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .reward-item {
+    width: 1100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .reward-item {
+    width: 100%;
+  }
+  .mint-rewards-modal {
+    width: calc(100% - 40px);
+    max-height: calc(100vh - 40px);
+    overflow-y: auto;
+  }
+  .reward-history-modal {
+    width: 100%;
+    max-height: calc(100vh - 40px);
+  }
+  .reward-history-table-wrapper {
+    width: 100%;
+    max-height: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .reward-history-table {
+    width: 390px;
+  }
+}

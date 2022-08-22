@@ -1,0 +1,10 @@
+.referFriendPage {
+  padding: 20px 20px 100px 20px;
+}
+@media (max-width: 767px) {
+  .referFriendPage {
+    width: calc(100vw - 40px);
+    margin: 0;
+    padding: 30px 20px;
+  }
+}
